@@ -11,9 +11,9 @@ port = 8787
 local_protocol = "https"
 
 [vars]
-MATOMO_URL = "https://analytics.example.com"
-MATOMO_SITE_ID = "1"
+MATOMO_URL = "https://ana.lyse.io"
+MATOMO_SITE_ID = "5"
 MATOMO_TIMEOUT_MS = "5000"
 LOG_LEVEL = "warn"
-USER_AGENT_ALLOWLIST_REGEX = ""
-DOCUMENT_REGEX = ""
+USER_AGENT_ALLOWLIST_REGEX = "ChatGPT-User|MistralAI-User|Gemini-Deep-Research|Claude-User|Perplexity-User|Google-NotebookLM"
+DOCUMENT_REGEX = "^[^?]+\\.(?:pdf|zip|docx?)(?:\\?|$)"
